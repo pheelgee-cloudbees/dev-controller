@@ -4,3 +4,5 @@ id: "pheelgee-cloudbees-dev-controller"
 description: "CloudBees CI configuration bundle for the pheelgee-cloudbees dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/pheelgee-cloudbees/dev-controller"
 parent: "base"
+rbac:
+  - "rbac.yaml"
