@@ -33,14 +33,14 @@ groups:
     users:
     - admin
     - team-admin
-    - "pheelgee-admin"
+    - "pheelgee" #"pheelgee-admin"
   roles:
   - name: administrator
     grantedAt: current
 - name: Managers
   members:
     users:
-    - "pheelgee"
+    - "pheelgee-manager" #"pheelgee"
   roles:
   - name: manager
     grantedAt: current
